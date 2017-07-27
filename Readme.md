@@ -5,8 +5,8 @@
 This package provides a handler and subscriber for multiprocess
 [`logbook`](http://logbook.readthedocs.io) logging that runs on the
 [`asyncio`](https://docs.python.org/3/library/asyncio.html) event loop. It uses
-[`aiopipe`](https://github.com/kchmck/aiopipe) to transfer log messages from the child to
-the parent process.
+[`aiopipe`](https://github.com/kchmck/aiopipe) to transfer log messages from the child
+process to the parent process.
 
 ## Example
 
