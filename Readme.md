@@ -10,9 +10,9 @@ process to the parent process.
 
 ## Example
 
-The following example shows a typical application of logging from a child process to a
-parent process. It results in two log messages, `hello from parent process` and `hello
-from child process`, being printed in some order.
+The following example shows a typical application of multiprocess logging. It results in
+two log messages, `hello from parent process` and `hello from child process`, being
+printed in some order.
 
 ```python
 from contextlib import closing
