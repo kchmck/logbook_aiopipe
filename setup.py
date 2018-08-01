@@ -5,7 +5,7 @@ with open("Readme.md") as f:
 
 setup(
     name="logbook_aiopipe",
-    version="0.1.0",
+    version="0.2.0",
     description="Multiprocess logbook logging for asyncio",
     author="Mick Koch",
     author_email="mick@kochm.co",
