@@ -1,5 +1,8 @@
 from setuptools import setup
 
+with open("Readme.md") as f:
+    readme = f.read()
+
 setup(
     name="logbook_aiopipe",
     version="0.1.0",
@@ -24,4 +27,6 @@ setup(
         "License :: OSI Approved :: MIT License",
     ],
     keywords="logbook async asyncio pipe",
+    long_description=readme,
+    long_description_content_type="text/markdown",
 )
