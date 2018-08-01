@@ -12,6 +12,9 @@ setup(
     license="MIT",
     url="https://github.com/kchmck/logbook_aiopipe",
     packages=["logbook_aiopipe"],
+    install_requires=[
+        "logbook~=1.4",
+    ],
     extras_require={
         "dev": [
             "pylint==1.6.5",
